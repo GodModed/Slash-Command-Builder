@@ -1,0 +1,15 @@
+const { SlashCommandBuilder } = require('@discordjs/builders');
+const CustomCommand = require('../class/CustomCommand.js');
+
+let name = 'mention';
+let description = 'Mentions the user in the chat.';
+let data = new SlashCommandBuilder().setName(name).setDescription(description).addMentionableOption(option => option.setName('mentionable').setDescription('Mention someone'));
+
+function run(interaction, client) {
+    const mentionable = interaction.options.getMentionable('mentionable');
+    if (mentionable) {
+        interaction.reply(`<@${mentionable.id}>`);
+    }
+}
+
+module.exports = new CustomCommand(data, run);
