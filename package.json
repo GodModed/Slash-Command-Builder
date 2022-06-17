@@ -1,14 +1,14 @@
 {
-  "name": "gay-discord-bot",
+  "name": "slash-command-builder",
   "version": "1.0.0",
-  "description": "",
+  "description": "An easy template for creating fast and responsive slash commands.",
   "main": "index.js",
   "scripts": {
     "start": "node .",
     "dev": "node . dev"
   },
   "keywords": [],
-  "author": "",
+  "author": "GodModeD",
   "license": "MIT",
   "dependencies": {
     "@discordjs/builders": "^0.15.0",
