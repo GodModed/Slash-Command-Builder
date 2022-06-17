@@ -1,6 +1,7 @@
 # Slash-Command-Handler
 
 Slash Command Handler is a discord.js template for easily making slash commands.
+<br>
 <img alt="downloads" src="https://img.shields.io/github/downloads/godmoded/Slash-Command-Builder/total?style=plastic"/>
 
 ## Installation
