@@ -2,9 +2,10 @@ const BaseCommand = require('../class/BaseCommand.js')
 
 let name = 'ping';
 let description = 'Sends a pong message to the user.';
+let permissions = [];
 
 function run(interaction, client) {
     interaction.reply('Pong!');
 }
 
-module.exports = new BaseCommand(name, description, run);
+module.exports = new BaseCommand(name, description, permissions, run);

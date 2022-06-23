@@ -1,6 +1,6 @@
 {
   "name": "slash-command-builder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An easy template for creating fast and responsive slash commands.",
   "main": "index.js",
   "scripts": {

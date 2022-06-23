@@ -1,5 +1,6 @@
 {
     "token": "",
     "guildId": "",
-    "clientId": ""
+    "clientId": "",
+    "PERMISSION_MESSAGE": "You do not have the permission to run this command. You require the permission `{permission}`."
 }

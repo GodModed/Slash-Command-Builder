@@ -9,5 +9,4 @@ module.exports = function(client, Collection) {
         const handler = require(`./${file}`);
         handler(client, Collection);
     });
-    require('./startBot.js')(client);
 }
